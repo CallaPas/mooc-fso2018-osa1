@@ -22,10 +22,11 @@ const Sisalto = (props) => {
     <div>
       <Osa osa={props.osa1} tehtavia={props.tehtavia1} />
       <Osa osa={props.osa2} tehtavia={props.tehtavia2} />
-      <Osa osa={props.osa2} tehtavia={props.tehtavia3} />
+      <Osa osa={props.osa3} tehtavia={props.tehtavia3} />
     </div>
   )
 }
+
 const Yhteensa = (props) => {
   return (
     <div>
@@ -34,7 +35,6 @@ const Yhteensa = (props) => {
     </div>
   )
 }
-
 
 const App = () => {
   const kurssi = 'Half Stack -sovelluskehitys'
