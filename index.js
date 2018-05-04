@@ -57,8 +57,8 @@ const App = () => {
   return (
     <div>
       <Otsikko kurssi={kurssi} />
-      <Sisalto osat={kurssi} />
-      <Yhteensa osat={kurssi} />
+      <Sisalto kurssi={kurssi} />
+      <Yhteensa kurssi={kurssi} />
      </div>
   )
 }
